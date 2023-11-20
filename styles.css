@@ -1,0 +1,35 @@
+/* 
+CMPS3141-HCI - AS4-23S1
+Collaborators:
+Date:10/8/23
+add some css to make writeup prettier */ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #6ff4f4, #f9fafa);
+}
+h2{
+    text-align: center;
+ 
+}
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+th,  td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(234, 216, 22);
+text-align: left;    
+}
+th {
+    background-color: #e2ed1d;
+    
+}
+ tr:nth-child(even) {
+    background-color: #eaf295;
+}
+tr:nth-child(odd) {
+    background-color: #bddc73;
+}
